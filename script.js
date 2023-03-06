@@ -22,4 +22,5 @@ function generation () {
     quotHTML.append(arrayQuot[randomIndex]);
     arrayHTML.append(arrayAuthor[randomIndex]);
     console.log(randomIndex);
+    //добавили
 }
