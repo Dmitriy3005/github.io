@@ -13,7 +13,7 @@ body{
     border-top: 5px groove blue;
     border-bottom: 5px groove blue;
     width: 95%;
-    height: auto;
+    height: 450px;
     display: flex;
     text-align: center;
     margin: auto;
@@ -23,6 +23,8 @@ body{
     border-bottom-left-radius: 7px;
     flex-direction: row;
 
+
+
 }
 
 #quotes {
@@ -31,9 +33,10 @@ body{
     justify-content: center;
     text-align: center;
     margin: auto;
-    width: 900px;
-    height: 450px;
+    width: auto;
+    height: 100%;
     font-size: 50px;
+
 }
 
 #quote {
@@ -52,8 +55,8 @@ body{
     background: linear-gradient(to bottom, orange, chocolate);
     width: 25%;
     height: 50px;
-    font-size: larger;
     transition-duration: 0.4s;
+    font-size: larger;
 
 
 }
@@ -61,3 +64,5 @@ body{
 #generationButton:hover {
     color: white;
 }
+
+
