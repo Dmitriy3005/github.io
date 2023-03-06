@@ -21,5 +21,5 @@ function generation () {
     let randomIndex = Math.floor(Math.random() * arrayQuot.length);
     quotHTML.append(arrayQuot[randomIndex]);
     arrayHTML.append(arrayAuthor[randomIndex]);
-    console.log(randomIndex)
+    console.log(randomIndex);
 }
